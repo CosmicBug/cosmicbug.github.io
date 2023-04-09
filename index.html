@@ -67,6 +67,19 @@
     article {
         margin-bottom: 1rem;
     }
+    /* Custom horizontal line styles */
+    hr {
+        border: none;
+        border-top: 1px solid #ccc;
+        margin: 2rem 0;
+    }
+
+    @media screen and (max-width: 768px) {
+        hr {
+            margin: 1rem 0;
+        }
+    }
+
 
     /* Responsive styles for smaller screens (mobile devices) */
     @media screen and (max-width: 768px) {
@@ -114,6 +127,7 @@
 
     <div id="main">
         <div id="profile">
+            <hr>
             <h2>About Me</h2>
             <p>
                 Hi, I'm Shashank. I am a Student of Physics, in search of the fundamental ideas of how computing works and Systems-Neurosience, in an effort to build creative computations,
@@ -123,6 +137,7 @@
         </div>
 
         <div id="content">
+            <hr>
             <h2>Selected Works</h2>
             <ul>
                 <li><a href="https://www.dropbox.com/s/jb2n2zej60a6bm5/BSc_Thesis__copy_.pdf?dl=0">Bachelors thesis on Effects of Noise in Activr particle reservoir computing</a></li>
@@ -150,4 +165,5 @@
                 <p>Post date: 2023-04-01</p>
 
             </article>
+            <hr>
             
